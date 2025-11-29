@@ -45,65 +45,139 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
 
 \clearpage
 
+
+
+
+
+
+
+
+
 \appendix
 
 \section*{APÊNDICES}
 
 \section{Matriz de Avaliação}
 
-\begin{longtable}{l p{0.6\textwidth} l}
+\begin{longtable}{l p{0.6\textwidth} p{0.3\textwidth}}
     \centering 
+    \textbf{ID} & \textbf{Problema} & \textbf{Sev} \\\hline
+
+    
+        \#01 & fluxo de telas muito complicado. telas intermediárias que se tornam redundantes & 3. Problema grande ou grave \\\hline
+        \#02 & horários do intercampi são mostrados simultaneamente e não apresentam alguma forma de filtro & 3. Problema grande ou grave \\\hline
+        \#03 & Muitas descrições alternativas são idênticas no site, apesar dos itens serem completamente diferentes & 3. Problema grande ou grave \\\hline
+        \#04 & ícones na barra inferior não possuem legenda (ex: casa, intergração, envelope, pessoa). O usuário precisa clicar no ícone para identificar o que este representa. & 3. Problema grande ou grave \\\hline
+        \#05 & Descrição dos ícones é a mesma "icone" havendo redundância. Pode gerar dúvidas para quem utiliza leitores de tela & 3. Problema grande ou grave \\\hline
+        \#06 & Para acessar o vídeo de como preencher um comentário de sugestão é exaustivo e pouco óbvio. Ou seja, o link do vídeo, para um usuário desatento é pouco perceptível, além de demandar grande esforço de procurar e aprender um tutorial para poder deixar uma sugestão & 3. Problema grande ou grave \\\hline
+        \#07 & A página não tem um main landmark – ou seja, não existe um ponto arquitetônico definido que represente o conteúdo principal da página, sendo um problema para a identificação das partes do site pelos leitores de tela & 3. Problema grande ou grave \\\hline
+        \#08 & Redirecionamento excessivo para features que podiam ser implementadas internamente & 3. Problema grande ou grave \\\hline
+        \#09 & páginas que precisam de login do usuário precisam passar por duas páginas antes de realmente levar para o login. & 2. Problema médio \\\hline
+        \#10 & algumas páginas dedicadas a guião não contem nenhuma informação & 2. Problema médio \\\hline
+        \#11 & botões formatados como links. Deixa o layout confuso e simplifica demais o layout, levando o usuário a pensar que os botões são somente texto não reativo & 2. Problema médio \\\hline
+        \#12 & símbolos do cardápio (legenda) não indicam significado de forma explícita & 2. Problema médio \\\hline
+        \#13 & É necessário rolagem completa da página para achar o botão voltar nos horários do intercampi. Ações utilizadas frequentemente devem estar facilmente visíveis & 2. Problema médio \\\hline
+        \#14 & Não existe a opção de costumizar o site para modo escuro/claro & 2. Problema médio \\\hline
+        \#15 & Notícias desatualizadas e redirecionamento para página do Instagram & 2. Problema médio \\\hline
+        \#16 & O usuário é deslogado imediatamente ao sair da aplicação & 2. Problema médio \\\hline
+        \#17 & Falta de botão de "voltar" dentro das seções internas, forçando uso do navegador & 2. Problema médio \\\hline
+        \#18 & Textos de manchetes (ex: "Curitiba 332 anos!") têm contraste baixo com o fundo da imagem & 2. Problema médio \\\hline
+        \#19 & Quando se acessa a localização de algo, ele redireciona para o google maps, porém usa coordenadas ao invés de endereço. & 2. Problema médio \\\hline
+        \#20 & Em "minha conta", as informações aparecem em campos que parecem editáveis mesmo sem ser. & 2. Problema médio \\\hline
+        \#21 & Em Ajuda, as opções de Carteirinha e Configurações podem causar confusão por parecerem abas de interação com o sistema. Carteirinha pode parecer que vai redirecionar para carteirinha (como na home) e Configurações para uma página de configurações do Aplicativo (cuja qual nem existe). & 2. Problema médio \\\hline
+        \#22 & Após fazer o login, o usuário é sempre redirecionado para a tela home e não a tela que queria acessar & 1. Problema cosmético ou superficial \\\hline
+        \#23 & ícones de features muito similares de forma repetida na home screen & 1. Problema cosmético ou superficial \\\hline
+        \#24 & sistema de grid para escolha de campi e cardápio parece muito complicado devido a quantidade de itens & 1. Problema cosmético ou superficial \\\hline
+        \#25 & ícones desproporcionalmente grandes. Ao aplicar zoom o hud é mal comportado, não mantendo uma mesmo padrão ou se adaptando para algo que faça mais sentido para a aplicação. & 1. Problema cosmético ou superficial \\\hline
+        \#26 & Movimentação através do site somente pelo teclado fica difícil pela cor azulada da maior parte dos botões, dessa forma o highlight não é facilmente visível e quase impossível saber o que está selecionado & 1. Problema cosmético ou superficial \\\hline
+        \#27 & ícones de ajuda (ex: RU, Intercampi, Campus) estão bem distribuídos, mas não há agrupamento visual ou hierarquia & 1. Problema cosmético ou superficial \\\hline
+        \#28 & botões de voltar a página anterior não estão no padrão conforme outros botões, facilmente confundíveis com texto simples na interface. & 1. Problema cosmético ou superficial \\\hline
+        \#29 & Aba Sugestões o texto é ruim de ler e abre em outra página com instruções um pouco confusas & 1. Problema cosmético ou superficial \\\hline
+        \#30 & Na seção ajuda a qual possui uma grade de ícone mostrando os tópicos de ações disponíveis, o design feito foi usando um ícone para simbolizar o tópico e abaixo do ícone um texto dizendo o nome do tópico, porém ao entrar em algum dos tópicos o design muda e é optado apenas por deixar o título, abandonando o ícone & 1. Problema cosmético ou superficial \\\hline
+        \#31 & A galeria de fotos estão com fotos dos campi muito grandes, ocupando um espaço desnecessário na tela e sendo necessário mais 'scrolling' para ver os outros campi da universidade, dificultando a comunicabilidade. Além do mais, o nome dos campi estão pequenos em comparação com as fotos, levando o usuário a ficar um pouco perdido durante o primeiro acesso caso não conheça o campus olhando apenas a foto. Outro problema é a qualidade das fotos está com uma resolução baixa. & 1. Problema cosmético ou superficial \\\hline
+        \#32 & falta de informações que seriam relevantes no contexto do aplicativo, como localização de bibliotecas e diferentes setores. & 0. Não é necessariamente um problema \\\hline
+    
+\end{longtable}
+\clearpage
+
+
+
+
+
+
+
+
+% ----------------TABELA AVALIACAO CONSOLIDADA PT1
+
+
+\section{Avaliação Consolidada}
+
+\subsection*{Tabela 1: Identificação e Severidade dos Problemas}
+
+\begin{longtable}{p{0.5cm} p{0.18\textwidth} p{0.50\textwidth} p{0.17\textwidth}} 
+    
     \renewcommand{\arraystretch}{1.5} 
 
-    \caption{Matriz de Avaliação de Usabilidade} \\ 
-    \toprule
-    \textbf{ID} & \textbf{Problema} & \textbf{Sev} \\
-    \midrule
-    \endfirsthead 
-    
-    \toprule
-    \multicolumn{3}{c}{Continuação da Matriz de Avaliação} \\[2em]
-    \textbf{ID} & \textbf{Problema} & \textbf{Sev} \\
-    \midrule
-    \endhead 
-    \multicolumn{3}{r}{\footnotesize Continua na próxima página...} \\
-    \endfoot 
+    \textbf{ID} & \textbf{Local onde Ocorre} & \textbf{Descrição do Problema} & \textbf{Severidade Final} \\\hline
 
-    \bottomrule
-    \endlastfoot 
+    \#1 & Páginas que precisam de login (carteirinha, minha conta, intercampi, etc.) & Fluxo de telas muito complicado. As telas intermediárias que se tornam redundantes & 3. Problema grande ou grave \\\hline
+    \#2 & Várias páginas (login, sugestões, campi, etc.) & Redirecionamento excessivo para features que podiam ser implementadas internamente & 3. Problema grande ou grave \\\hline
+    \#3 & Página de horários do intercampi, grid de escolha de campi e cardápio & Falta de opção de filtro para páginas que mostram muitas informações & 3. Problema grande ou grave \\\hline
+    \#4 & Várias páginas & Descrições alternativas (alt) redundantes e muito genéricas para ícones e imagens & 3. Problema grande ou grave \\\hline
+    \#5 & Navbar (independe de páginas) & ícones na barra inferior não possuem legenda (ex: casa, interrogação, envelope, pessoa). O usuário precisa clicar no ícone para identificar o que este representa. & 3. Problema grande ou grave \\\hline
+    \#6 & Todas as páginas & A página não tem um main landmark – ou seja, não existe um ponto semanticamente definido que represente o conteúdo principal da página, sendo um problema para a identificação das partes do site pelos leitores de tela & 3. Problema grande ou grave \\\hline
+    \#7 & Página da Seção de Ajuda & Algumas páginas dedicadas a guiar o usuário não contem nenhuma informação & 2. Problema médio \\\hline
+    \#8 & Tela intermediária de login/ tela de escolha de ônibus do intercampi & botões formatados como links. Deixa o layout confuso e simplifica demais o layout, levando o usuário a pensar que os botões são somente texto não reativo & 2. Problema médio \\\hline
+    \#9 & Cardápio do RU & Símbolos do cardápio (legenda) não indicam significado de forma explícita & 2. Problema médio \\\hline
+    \#10 & Várias páginas & Falta de botões e opções facilmente acessíveis para desfazer ações do usuário & 2. Problema médio \\\hline
+    \#11 & Todo o aplicativo & Não existe a opção de costumizar o site para modo escuro/claro & 2. Problema médio \\\hline
+    \#12 & Independe de páginas & O usuário é deslogado imediatamente ao sair da aplicação & 2. Problema médio \\\hline
+    \#13 & Várias páginas & Textos em algumas páginas têm contraste baixo com o fundo & 2. Problema médio \\\hline
+    \#14 & Página de informações dos campi & Quando se acessa a localização de algo, ele redireciona para o google maps, porém usa coordenadas ao invés de endereço. & 2. Problema médio \\\hline
+    \#15 & Página de ajuda & Em Ajuda, as opções de Carteirinha e Configurações podem causar confusão por parecerem abas de interação com o sistema. Carteirinha pode parecer que vai redirecionar para carteirinha (como na home) e Configurações para uma página de configurações do Aplicativo (cuja qual nem existe). & 2. Problema médio \\\hline
+    \#16 & Telas de login/ home & Após fazer o login, o usuário é sempre redirecionado para a tela home e não a tela que queria acessar & 1. Problema cosmético ou superficial \\\hline
+    \#17 & Várias páginas & ícones desproporcionalmente grandes. Ao aplicar zoom o hud é mal comportado, não mantendo um mesmo padrão ou se adaptando para algo que faça mais sentido para a aplicação. & 1. Problema cosmético ou superficial \\\hline
+    \#18 & Várias páginas & Movimentação através do site somente pelo teclado fica difícil pela cor azulada da maior parte dos botões, dessa forma o highlight não é facilmente visível e é quase impossível saber o que está selecionado & 1. Problema cosmético ou superficial \\\hline
     
-    \#01 & fluxo de telas muito complicado. telas intermediárias que se tornam redundantes & 3. Problema grande/grave \\
-        \#02 & horários do intercampi são mostrados simultaneamente e não apresentam alguma forma de filtro & 3. Problema grande/grave \\
-        \#03 & Muitas descrições alternativas são idênticas no site, apesar dos itens serem completamente diferentes & 3. Problema grande/grave \\
-        \#04 & ícones na barra inferior não possuem legenda (ex: casa, intergração, envelope, pessoa). O usuário precisa clicar no ícone para identificar o que este representa. & 3. Problema grande/grave \\
-        \#05 & Descrição dos ícones é a mesma "icone" havendo redundância. Pode gerar dúvidas para quem utiliza leitores de tela & 3. Problema grande/grave \\
-        \#06 & Para acessar o vídeo de como preencher um comentário de sugestão é exaustivo e pouco óbvio. Ou seja, o link do vídeo, para um usuário desatento é pouco perceptível, além de demandar grande esforço de procurar e aprender um tutorial para poder deixar uma sugestão & 3. Problema grande/grave \\
-        \#07 & A página não tem um main landmark – ou seja, não existe um ponto arquitetônico definido que represente o conteúdo principal da página, sendo um problema para a identificação das partes do site pelos leitores de tela & 3. Problema grande/grave \\
-        \#08 & Redirecionamento excessivo para features que podiam ser implementadas internamente & 3. Problema grande/grave \\
-        \#09 & páginas que precisam de login do usuário precisam passar por duas páginas antes de realmente levar para o login. & 2. Problema médio \\
-        \#10 & algumas páginas dedicadas a guião não contem nenhuma informação & 2. Problema médio \\
-        \#11 & botões formatados como links. Deixa o layout confuso e simplifica demais o layout, levando o usuário a pensar que os botões são somente texto não reativo & 2. Problema médio \\
-        \#12 & símbolos do cardápio (legenda) não indicam significado de forma explícita & 2. Problema médio \\
-        \#13 & É necessário rolagem completa da página para achar o botão voltar nos horários do intercampi. Ações utilizadas frequentemente devem estar facilmente visíveis & 2. Problema médio \\
-        \#14 & Não existe a opção de costumizar o site para modo escuro/claro & 2. Problema médio \\
-        \#15 & Notícias desatualizadas e redirecionamento para página do Instagram & 2. Problema médio \\
-        \#16 & O usuário é deslogado imediatamente ao sair da aplicação & 2. Problema médio \\
-        \#17 & Falta de botão de "voltar" dentro das seções internas, forçando uso do navegador & 2. Problema médio \\
-        \#18 & Textos de manchetes (ex: "Curitiba 332 anos!") têm contraste baixo com o fundo da imagem & 2. Problema médio \\
-        \#19 & Quando se acessa a localização de algo, ele redireciona para o google maps, porém usa coordenadas ao invés de endereço. & 2. Problema médio \\
-        \#20 & Em "minha conta", as informações aparecem em campos que parecem editáveis mesmo sem ser. & 2. Problema médio \\
-        \#21 & Em Ajuda, as opções de Carteirinha e Configurações podem causar confusão por parecerem abas de interação com o sistema. Carteirinha pode parecer que vai redirecionar para carteirinha (como na home) e Configurações para uma página de configurações do Aplicativo (cuja qual nem existe). & 2. Problema médio \\
-        \#22 & Após fazer o login, o usuário é sempre redirecionado para a tela home e não a tela que queria acessar & 1. Problema cosmético/superficial \\
-        \#23 & ícones de features muito similares de forma repetida na home screen & 1. Problema cosmético/superficial \\
-        \#24 & sistema de grid para escolha de campi e cardápio parece muito complicado devido a quantidade de itens & 1. Problema cosmético/superficial \\
-        \#25 & ícones desproporcionalmente grandes. Ao aplicar zoom o hud é mal comportado, não mantendo uma mesmo padrão ou se adaptando para algo que faça mais sentido para a aplicação. & 1. Problema cosmético/superficial \\
-        \#26 & Movimentação através do site somente pelo teclado fica difícil pela cor azulada da maior parte dos botões, dessa forma o highlight não é facilmente visível e quase impossível saber o que está selecionado & 1. Problema cosmético/superficial \\
-        \#27 & ícones de ajuda (ex: RU, Intercampi, Campus) estão bem distribuídos, mas não há agrupamento visual ou hierarquia & 1. Problema cosmético/superficial \\
-        \#28 & botões de voltar a página anterior não estão no padrão conforme outros botões, facilmente confundíveis com texto simples na interface. & 1. Problema cosmético/superficial \\
-        \#29 & Aba Sugestões o texto é ruim de ler e abre em outra página com instruções um pouco confusas & 1. Problema cosmético/superficial \\
-        \#30 & Na seção ajuda a qual possui uma grade de ícone mostrando os tópicos de ações disponíveis, o design feito foi usando um ícone para simbolizar o tópico e abaixo do ícone um texto dizendo o nome do tópico, porém ao entrar em algum dos tópicos o design muda e é optado apenas por deixar o título, abandonando o ícone & 1. Problema cosmético/superficial \\
-        \#31 & A galeria de fotos estão com fotos dos campi muito grandes, ocupando um espaço desnecessário na tela e sendo necessário mais 'scrolling' para ver os outros campi da universidade, dificultando a comunicabilidade. Além do mais, o nome dos campi estão pequenos em comparação com as fotos, levando o usuário a ficar um pouco perdido durante o primeiro acesso caso não conheça o campus olhando apenas a foto. Outro problema é a qualidade das fotos está com uma resolução baixa. & 1. Problema cosmético/superficial \\
-        \#32 & falta de informações que seriam relevantes no contexto do aplicativo, como localização de bibliotecas e diferentes setores. & 0. Não é necessariamente um problema \\
+\end{longtable}
+\clearpage
+
+
+
+
+
+
+
+
+% ----------------TABELA AVALIACAO CONSOLIDADA PT2
+
+\subsection*{Tabela 2: Problemas e Soluções Propostas}
+
+\begin{longtable}{p{0.5cm} p{0.45\textwidth} p{0.45\textwidth}} 
+    
+    \renewcommand{\arraystretch}{1.5} 
+    \textbf{ID} & \textbf{Descrição do Problema} & \textbf{Sugestões de Melhorias/Correções} \\\hline
+
+
+    % --- Corpo da Tabela 2 ---
+    \#1 & Fluxo de telas muito complicado. As telas intermediárias que se tornam redundantes & remover telas intermediárias desnecessárias \\\hline
+    \#2 & Redirecionamento excessivo para features que podiam ser implementadas internamente & É importante estruturar o site para modularizar as funcionalidades necessárias. [...] O objetivo é evitar projetos monolíticos, que tendem a ficar mal organizados e com baixa otimização. \\\hline
+    \#3 & Falta de opção de filtro para páginas que mostram muitas informações & Adicionar formas personalizadas para o usuário filtrar os horários através de interfaces interativas. (PARCIALMENTE RESOLVIDO) \\\hline
+    \#4 & Descrições alternativas (alt) redundantes e muito genéricas para ícones e imagens & Colocar descrições adequadas para cada ícone, relacionando com seu significado e que auxiliem na navegação do site. \\\hline
+    \#5 & ícones na barra inferior não possuem legenda (ex: casa, interrogação, envelope, pessoa). O usuário precisa clicar no ícone para identificar o que este representa. & Adicionar legendas descritivas e sugestivas diretamente abaixo dos ícones e/ou adicionar um "tooltip", ou seja, ao usuário passar o mouse por cima do botão um pequeno diálogo aparece dando mais informações e contexto ao ícone. (RESOLVIDO) \\\hline
+    \#6 & A página não tem um main landmark – ou seja, não existe um ponto semanticamente definido que represente o conteúdo principal da página, sendo um problema para a identificação das partes do site pelos leitores de tela & Adicionar as demarcações corretas para landmark no código fonte. \\\hline
+    \#7 & Algumas páginas dedicadas a guiar o usuário não contem nenhuma informação & Remover páginas vazias ou adicionar informações relevantes (RESOLVIDO) \\\hline
+    \#8 & botões formatados como links. Deixa o layout confuso e simplifica demais o layout, levando o usuário a pensar que os botões são somente texto não reativo & Reformular tela para deixar botões mais similares a botões e deixar texto mais visível (PARCIALMENTE RESOLVIDO) \\\hline
+    \#9 & Símbolos do cardápio (legenda) não indicam significado de forma explícita & adicionar alguma forma de descrição da legenda, mesmo que opcional \\\hline
+    \#10 & Falta de botões e opções facilmente acessíveis para desfazer ações do usuário & Adicionar botões de retorno \\\hline
+    \#11 & Não existe a opção de costumizar o site para modo escuro/claro & Inicialmente adicionar um botão na home/tela de configuração a fim de alterar entre tema escuro e claro. Futuramente, adicionar opções mais personalizadas como alterar brilho, constraste e saturação \\\hline
+    \#12 & O usuário é deslogado imediatamente ao sair da aplicação & Adicionar um token de login (ex: JWT token) para que demore ao menos algumas horas para expirar ou opção de "permanecer logado" a fim de otimizar o tempo do usuário \\\hline
+    \#13 & Textos em algumas páginas têm contraste baixo com o fundo & Reforçar design para melhorar os valores de cor, evitando valores muito próximos e pesos de fontes que são muito finos \\\hline
+    \#14 & Quando se acessa a localização de algo, ele redireciona para o google maps, porém usa coordenadas ao invés de endereço. & Trocar coordenadas pelo endereço de local (RESOLVIDO) \\\hline
+    \#15 & Em Ajuda, as opções de Carteirinha e Configurações podem causar confusão por parecerem abas de interação com o sistema. Carteirinha pode parecer que vai redirecionar para carteirinha (como na home) e Configurações para uma página de configurações do Aplicativo (cuja qual nem existe). & mudar ícones ou formato dos botões para deixar mais adequado à mensagem que a página precisa passar (RESOLVIDO) \\\hline
+    \#16 & Após fazer o login, o usuário é sempre redirecionado para a tela home e não a tela que queria acessar & Mudar sistema de router do login \\\hline
+    \#17 & ícones desproporcionalmente grandes. Ao aplicar zoom o hud é mal comportado, não mantendo um mesmo padrão ou se adaptando para algo que faça mais sentido para a aplicação. & Refatorar sistema de redimensionamento (PARCIALMENTE RESOLVIDO) \\\hline
+    \#18 & Movimentação através do site somente pelo teclado fica difícil pela cor azulada da maior parte dos botões, dessa forma o highlight não é facilmente visível e é quase impossível saber o que está selecionado & Modificar o CSS para indicar melhor quando um botão está selecionado \\\hline
     
 \end{longtable}
 
