@@ -20,36 +20,17 @@
     \footnotesize (GRR20243604)\\[1em]
 }
 
+
 \begin{document}
+
 \maketitle
+\clearpage
+\tableofcontents
+\clearpage
 
 \section{Ficha de Identificação}
 
-O sistema avaliado foi o aplicativo SOUFPR, que visa centralizar e facilitar o acesso à informação, serviços e contato para/com a UFPR.
-A aplicação tem como Stakeholders centrais os estudantes, mesmo que a cadeia de Stakeholders seja mais extensa. 
-
-Nome completo de cada integrante bem como a técnica utilizada:
-\begin{itemize}
-    \item Beatriz Pontes Camargo - SUS
-    \item Eduardo Kaluf - Oito Regras de Ouro
-    \item Giuliano Tavares - MIS - 
-    \item Pedro Takeo Shima - Leis da Simplicidade
-    \item Sergio Sivonei de Sant'Ana Filho - Percurso Cognitivo 
-    \item Thamiris Yamate Fischer - Design Universal
-\end{itemize}
-
-O total de problemas únicos encontrados foi de 32 problemas distintos.
-Cada técnica teve 10 problemas encontrados, com exceção do SUS, pela avaliadora Beatriz P. Camargo que identificou 9.
-Já sobre a quantidade de problemas por severidade, temos a seguinte distribuição:
-\begin{itemize}
-    \item Gravidade 4 (Problema catastrófico): 0
-    \item Gravidade 3 (Problema Grande/Grave): 8
-    \item Gravidade 2 (Problema médio): 13
-    \item Gravidade 1 (Problema cosmético superficial): 10
-    \item Gravidade 0 (não necessariamente um problema): 1
-\end{itemize}
-
-Quanto ao total de problemas encontrados por um único avaliador, temos a mesma distribuição que por técnica, onde a avaliadora Beatriz Pontes Camargo encontrou 9 e o restante da equipe encontrou 10.
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 \section{Matriz de avaliação}
 
@@ -57,22 +38,39 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
 
 \section{Descrição dos problemas, severidade e sugestões de melhoria}
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+As severidades e as sugestões de melhoria podem ser encontradas na seção ~\ref{tab:app:avCons}, contendo a tabela de avaliação consolidada. A avaliação consolidada está separada em duas tabelas: a Tabela ~\ref{tab:app:avCons1}, contendo o local onde ocorre o problema, uma descrição sucinta do problema e a severidade final decidida pelo grupo, e a Tabela ~\ref{tab:app:avCons2}, apresentando as sugestões de correções e melhorias.
+
+\subsection{Descrição dos Problemas}
+
+Esta seção detalha as descrições dos problemas e explicita as formas de reproduzi-los. Durante o 
+processo de avaliação do aplicativo \textbf{SouUFPR}, houve uma atualização, resolvendo alguns dos problemas citados. Sendo assim, para tais problemas, será indicado caso tenha sido resolvido e haverá uma explicação de como poderia ser reproduzido antes da atualização. Os problemas estão numerados de acordo com seus IDs.
+
+\begin{enumerate}
+    \item O fluxo de telas apresenta alguns problemas relacionados a navegação complicada devido a quantidade excessiva de telas intermediárias. Essas telas explicitam informações já citadas anteriormente, ou, se apresentam alguma informação nova, podem ser implementadas em outras telas, de forma a evitar redundância. Algumas dessas páginas intermediárias foram removidas ná nova atualização, porém, entrando na página de feedbacks do aplicativo, ainda temos uma tela que poderia ser removida, levando o usuário diretamente à página de sugestões.
+    \item O aplicativo apresenta uma quantidade excessiva de redirecionamentos para sites externos. Esses redirecionamentos ocorrem em grande parte para funcionalidades que poderia ter sido desenvolvidas de forma nativa.
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    \item 
+    
+\end{enumerate}
+    
 
 \section{Apreciação geral da qualidade do sistema com base nos resultados das avaliações}
 
-Após a etapa de avaliações individuais, nas quais cada avaliador aplicou seu respectivo método e as discussões para unir cada perspectiva, podemos apresentar a apreciação a respeito da qualidade geral do sistema SouUFPR.
-
-Um primeiro aspecto analisado e fortemente pontuado pelos avaliadores foi a Acessibilidade. Em geral, o sistema é acessível e isso é reforçado principalmente pelo uso de ferramentas que avaliam esse aspecto, como o LightHouse e o WAVE, conseguindo uma acurácia boa no LightHouse e havendo poucos problemas aparentes no WAVE. Todavia, apesar de uma boa avaliação nessas extensões, há aspectos graves que dificultam o acesso para pessoas que necessitam de leitores de tela, como redundância na descrição alternativa de ícones e a ausência de uma main landmark.
-
-Outros aspectos observados foram a lógica confusa, a frustração de uso do sistema e o fluxo de telas complicado e exagerado. Os avaliadores, em geral, apontaram que há várias telas intermediárias até chegar a um objetivo final, coisa que poderia ser mais simples e curta, indo direto ao objetivo, por exemplo. Também que há ícones e partes que causam confusão, além de induzir o usuário a uma determinada ação ou expectativa.
-
-Levando em consideração a comunicabilidade e o feedback para o usuário, ou seja, como que o SouUFPR interage com o usuário e dá feedbacks. Nesse ponto, foi detectado problemas com partes redundantes ou pouco visíveis do site, por exemplo, botões pouco aparentes e baixo contraste. 
-
-Apesar dos pontos negativos, é importante ressaltar que o sistema avaliado não se consolida como uma aplicação inutilizável no que diz respeito a um usuário que não dependa de recursos de acessibilidade (como os landmarks citados). O aplicativo é de fácil aprendizagem e possuí uma linguagem simples, pontos positivos de sua implementação. Não obstante, o fato de estar em fase inicial é um bom indicativo quanto a resolução futura dos problemas encontrados.
-
-Em suma, o sistema SouUFPR pode ter a sua qualidade avaliada em três pilares que pontuam aspectos a melhorar da aplicação que são: Acessibilidade, Fluxo de Telas e Confusão do Usuário, e Comunicabilidade e Feedback ao Usuário. Todavia vale ponderar que a aplicação também possui pontos positivos que a descrevem, como citados anteriormente. Logo, é possível dizer que o aplicativo é simples, com aprendizagem rápida e visa cumprir seu principal objetivo, ou seja, ser um aplicativo direcionado para a comunidade acadêmica da UFPR que centraliza informações importantes para o cotidiano dessa. Entretanto, há alguns pontos de melhoria como: melhorar a acessibilidade para pessoas que necessitam de leitores de tela, ter um fluxo de telas mais intuitivo, simples e fluído, deixar os ícones com significados mais explícitos e evidenciar melhor algumas funcionalidades, como por exemplo, alguns dos botões.
-
+Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
 
 \section{Apreciação sobre os resultados da avaliação}
 
@@ -146,10 +144,13 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
 
 
 \section{Avaliação Consolidada}
+\label{tab:app:avCons}
 
-\subsection*{Tabela 1: Identificação e Severidade dos Problemas}
+\subsection{Tabela 1: Identificação e Severidade dos Problemas}
+\label{tab:app:avCons1}
 
 \begin{longtable}{p{0.5cm} p{0.18\textwidth} p{0.50\textwidth} p{0.17\textwidth}} 
+
     
     \renewcommand{\arraystretch}{1.5} 
 
@@ -186,7 +187,8 @@ Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapi
 
 % ----------------TABELA AVALIACAO CONSOLIDADA PT2
 
-\subsection*{Tabela 2: Problemas e Soluções Propostas}
+\subsection{Tabela 2: Problemas e Soluções Propostas}
+\label{tab:app:avCons2}
 
 \begin{longtable}{p{0.5cm} p{0.45\textwidth} p{0.45\textwidth}} 
     
